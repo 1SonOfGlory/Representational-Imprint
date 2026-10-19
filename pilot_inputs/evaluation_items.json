@@ -1,0 +1,2300 @@
+[
+  {
+    "item_id": "occupation_secretary_t0",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The secretary said that",
+    "prefix_token_ids": [
+      510,
+      14385,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_secretary_t1",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The secretary explained that",
+    "prefix_token_ids": [
+      510,
+      14385,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_secretary_t2",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The secretary mentioned that",
+    "prefix_token_ids": [
+      510,
+      14385,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_secretary_t3",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The secretary remembered that",
+    "prefix_token_ids": [
+      510,
+      14385,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_secretary_t4",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the secretary arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      14385,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_secretary_t5",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the secretary was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      14385,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_secretary_t6",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the secretary finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      14385,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_secretary_t7",
+    "kind": "occupation",
+    "noun": "secretary",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the secretary,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      14385,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t0",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The firefighter said that",
+    "prefix_token_ids": [
+      510,
+      31273,
+      8532,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t1",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The firefighter explained that",
+    "prefix_token_ids": [
+      510,
+      31273,
+      8532,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t2",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The firefighter mentioned that",
+    "prefix_token_ids": [
+      510,
+      31273,
+      8532,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t3",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The firefighter remembered that",
+    "prefix_token_ids": [
+      510,
+      31273,
+      8532,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t4",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the firefighter arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      31273,
+      8532,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t5",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the firefighter was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      31273,
+      8532,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t6",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the firefighter finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      31273,
+      8532,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_firefighter_t7",
+    "kind": "occupation",
+    "noun": "firefighter",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the firefighter,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      31273,
+      8532,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t0",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The farmer said that",
+    "prefix_token_ids": [
+      510,
+      24718,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t1",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The farmer explained that",
+    "prefix_token_ids": [
+      510,
+      24718,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t2",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The farmer mentioned that",
+    "prefix_token_ids": [
+      510,
+      24718,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t3",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The farmer remembered that",
+    "prefix_token_ids": [
+      510,
+      24718,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t4",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the farmer arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      24718,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t5",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the farmer was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      24718,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t6",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the farmer finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      24718,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_farmer_t7",
+    "kind": "occupation",
+    "noun": "farmer",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the farmer,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      24718,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t0",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The librarian said that",
+    "prefix_token_ids": [
+      510,
+      40211,
+      6656,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t1",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The librarian explained that",
+    "prefix_token_ids": [
+      510,
+      40211,
+      6656,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t2",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The librarian mentioned that",
+    "prefix_token_ids": [
+      510,
+      40211,
+      6656,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t3",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The librarian remembered that",
+    "prefix_token_ids": [
+      510,
+      40211,
+      6656,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t4",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the librarian arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      40211,
+      6656,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t5",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the librarian was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      40211,
+      6656,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t6",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the librarian finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      40211,
+      6656,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_librarian_t7",
+    "kind": "occupation",
+    "noun": "librarian",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the librarian,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      40211,
+      6656,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t0",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The doctor said that",
+    "prefix_token_ids": [
+      510,
+      7345,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t1",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The doctor explained that",
+    "prefix_token_ids": [
+      510,
+      7345,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t2",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The doctor mentioned that",
+    "prefix_token_ids": [
+      510,
+      7345,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t3",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The doctor remembered that",
+    "prefix_token_ids": [
+      510,
+      7345,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t4",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the doctor arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      7345,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t5",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the doctor was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      7345,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t6",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the doctor finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      7345,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_doctor_t7",
+    "kind": "occupation",
+    "noun": "doctor",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the doctor,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      7345,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t0",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The artist said that",
+    "prefix_token_ids": [
+      510,
+      9558,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t1",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The artist explained that",
+    "prefix_token_ids": [
+      510,
+      9558,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t2",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The artist mentioned that",
+    "prefix_token_ids": [
+      510,
+      9558,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t3",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The artist remembered that",
+    "prefix_token_ids": [
+      510,
+      9558,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t4",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the artist arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      9558,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t5",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the artist was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      9558,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t6",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the artist finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      9558,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_artist_t7",
+    "kind": "occupation",
+    "noun": "artist",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the artist,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      9558,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t0",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The electrician said that",
+    "prefix_token_ids": [
+      510,
+      5637,
+      757,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t1",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The electrician explained that",
+    "prefix_token_ids": [
+      510,
+      5637,
+      757,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t2",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The electrician mentioned that",
+    "prefix_token_ids": [
+      510,
+      5637,
+      757,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t3",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The electrician remembered that",
+    "prefix_token_ids": [
+      510,
+      5637,
+      757,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t4",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the electrician arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      5637,
+      757,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t5",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the electrician was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      5637,
+      757,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t6",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the electrician finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      5637,
+      757,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_electrician_t7",
+    "kind": "occupation",
+    "noun": "electrician",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the electrician,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      5637,
+      757,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t0",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The driver said that",
+    "prefix_token_ids": [
+      510,
+      6254,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t1",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The driver explained that",
+    "prefix_token_ids": [
+      510,
+      6254,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t2",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The driver mentioned that",
+    "prefix_token_ids": [
+      510,
+      6254,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t3",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The driver remembered that",
+    "prefix_token_ids": [
+      510,
+      6254,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t4",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the driver arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      6254,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t5",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the driver was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      6254,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t6",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the driver finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      6254,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_driver_t7",
+    "kind": "occupation",
+    "noun": "driver",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the driver,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      6254,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t0",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The manager said that",
+    "prefix_token_ids": [
+      510,
+      7205,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t1",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The manager explained that",
+    "prefix_token_ids": [
+      510,
+      7205,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t2",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The manager mentioned that",
+    "prefix_token_ids": [
+      510,
+      7205,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t3",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The manager remembered that",
+    "prefix_token_ids": [
+      510,
+      7205,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t4",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the manager arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      7205,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t5",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the manager was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      7205,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t6",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the manager finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      7205,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_manager_t7",
+    "kind": "occupation",
+    "noun": "manager",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the manager,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      7205,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t0",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The receptionist said that",
+    "prefix_token_ids": [
+      510,
+      16112,
+      382,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t1",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The receptionist explained that",
+    "prefix_token_ids": [
+      510,
+      16112,
+      382,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t2",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The receptionist mentioned that",
+    "prefix_token_ids": [
+      510,
+      16112,
+      382,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t3",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The receptionist remembered that",
+    "prefix_token_ids": [
+      510,
+      16112,
+      382,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t4",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the receptionist arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      16112,
+      382,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t5",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the receptionist was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      16112,
+      382,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t6",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the receptionist finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      16112,
+      382,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_receptionist_t7",
+    "kind": "occupation",
+    "noun": "receptionist",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the receptionist,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      16112,
+      382,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t0",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The photographer said that",
+    "prefix_token_ids": [
+      510,
+      24996,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t1",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The photographer explained that",
+    "prefix_token_ids": [
+      510,
+      24996,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t2",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The photographer mentioned that",
+    "prefix_token_ids": [
+      510,
+      24996,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t3",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The photographer remembered that",
+    "prefix_token_ids": [
+      510,
+      24996,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t4",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the photographer arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      24996,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t5",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the photographer was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      24996,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t6",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the photographer finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      24996,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_photographer_t7",
+    "kind": "occupation",
+    "noun": "photographer",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the photographer,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      24996,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t0",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The cashier said that",
+    "prefix_token_ids": [
+      510,
+      7942,
+      1321,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t1",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The cashier explained that",
+    "prefix_token_ids": [
+      510,
+      7942,
+      1321,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t2",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The cashier mentioned that",
+    "prefix_token_ids": [
+      510,
+      7942,
+      1321,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t3",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The cashier remembered that",
+    "prefix_token_ids": [
+      510,
+      7942,
+      1321,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t4",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the cashier arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      7942,
+      1321,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t5",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the cashier was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      7942,
+      1321,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t6",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the cashier finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      7942,
+      1321,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_cashier_t7",
+    "kind": "occupation",
+    "noun": "cashier",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the cashier,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      7942,
+      1321,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t0",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The painter said that",
+    "prefix_token_ids": [
+      510,
+      27343,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t1",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The painter explained that",
+    "prefix_token_ids": [
+      510,
+      27343,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t2",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The painter mentioned that",
+    "prefix_token_ids": [
+      510,
+      27343,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t3",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The painter remembered that",
+    "prefix_token_ids": [
+      510,
+      27343,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t4",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the painter arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      27343,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t5",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the painter was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      27343,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t6",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the painter finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      27343,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_painter_t7",
+    "kind": "occupation",
+    "noun": "painter",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the painter,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      27343,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t0",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The plumber said that",
+    "prefix_token_ids": [
+      510,
+      499,
+      2764,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t1",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The plumber explained that",
+    "prefix_token_ids": [
+      510,
+      499,
+      2764,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t2",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The plumber mentioned that",
+    "prefix_token_ids": [
+      510,
+      499,
+      2764,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t3",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The plumber remembered that",
+    "prefix_token_ids": [
+      510,
+      499,
+      2764,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t4",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the plumber arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      499,
+      2764,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t5",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the plumber was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      499,
+      2764,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t6",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the plumber finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      499,
+      2764,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_plumber_t7",
+    "kind": "occupation",
+    "noun": "plumber",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the plumber,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      499,
+      2764,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t0",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The surgeon said that",
+    "prefix_token_ids": [
+      510,
+      20997,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t1",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The surgeon explained that",
+    "prefix_token_ids": [
+      510,
+      20997,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t2",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The surgeon mentioned that",
+    "prefix_token_ids": [
+      510,
+      20997,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t3",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The surgeon remembered that",
+    "prefix_token_ids": [
+      510,
+      20997,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t4",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the surgeon arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      20997,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t5",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the surgeon was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      20997,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t6",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the surgeon finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      20997,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_surgeon_t7",
+    "kind": "occupation",
+    "noun": "surgeon",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the surgeon,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      20997,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t0",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The bartender said that",
+    "prefix_token_ids": [
+      510,
+      44693,
+      3109,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t1",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The bartender explained that",
+    "prefix_token_ids": [
+      510,
+      44693,
+      3109,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t2",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The bartender mentioned that",
+    "prefix_token_ids": [
+      510,
+      44693,
+      3109,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t3",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The bartender remembered that",
+    "prefix_token_ids": [
+      510,
+      44693,
+      3109,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t4",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the bartender arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      44693,
+      3109,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t5",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the bartender was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      44693,
+      3109,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t6",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the bartender finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      44693,
+      3109,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "occupation_bartender_t7",
+    "kind": "occupation",
+    "noun": "bartender",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the bartender,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      44693,
+      3109,
+      13
+    ]
+  },
+  {
+    "item_id": "control_person_t0",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The person said that",
+    "prefix_token_ids": [
+      510,
+      1436,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "control_person_t1",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The person explained that",
+    "prefix_token_ids": [
+      510,
+      1436,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "control_person_t2",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The person mentioned that",
+    "prefix_token_ids": [
+      510,
+      1436,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "control_person_t3",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The person remembered that",
+    "prefix_token_ids": [
+      510,
+      1436,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "control_person_t4",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the person arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      1436,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "control_person_t5",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the person was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      1436,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "control_person_t6",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the person finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      1436,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "control_person_t7",
+    "kind": "control",
+    "noun": "person",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the person,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      1436,
+      13
+    ]
+  },
+  {
+    "item_id": "control_individual_t0",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The individual said that",
+    "prefix_token_ids": [
+      510,
+      2060,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "control_individual_t1",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The individual explained that",
+    "prefix_token_ids": [
+      510,
+      2060,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "control_individual_t2",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The individual mentioned that",
+    "prefix_token_ids": [
+      510,
+      2060,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "control_individual_t3",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The individual remembered that",
+    "prefix_token_ids": [
+      510,
+      2060,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "control_individual_t4",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the individual arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      2060,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "control_individual_t5",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the individual was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      2060,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "control_individual_t6",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the individual finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      2060,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "control_individual_t7",
+    "kind": "control",
+    "noun": "individual",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the individual,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      2060,
+      13
+    ]
+  },
+  {
+    "item_id": "control_adult_t0",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t0",
+    "template_family": "original",
+    "prefix": "The adult said that",
+    "prefix_token_ids": [
+      510,
+      6782,
+      753,
+      326
+    ]
+  },
+  {
+    "item_id": "control_adult_t1",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t1",
+    "template_family": "original",
+    "prefix": "The adult explained that",
+    "prefix_token_ids": [
+      510,
+      6782,
+      5544,
+      326
+    ]
+  },
+  {
+    "item_id": "control_adult_t2",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t2",
+    "template_family": "original",
+    "prefix": "The adult mentioned that",
+    "prefix_token_ids": [
+      510,
+      6782,
+      5393,
+      326
+    ]
+  },
+  {
+    "item_id": "control_adult_t3",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t3",
+    "template_family": "original",
+    "prefix": "The adult remembered that",
+    "prefix_token_ids": [
+      510,
+      6782,
+      12659,
+      326
+    ]
+  },
+  {
+    "item_id": "control_adult_t4",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t4",
+    "template_family": "additional",
+    "prefix": "When the adult arrived,",
+    "prefix_token_ids": [
+      3039,
+      253,
+      6782,
+      7244,
+      13
+    ]
+  },
+  {
+    "item_id": "control_adult_t5",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t5",
+    "template_family": "additional",
+    "prefix": "Although the adult was tired,",
+    "prefix_token_ids": [
+      8430,
+      253,
+      6782,
+      369,
+      11870,
+      13
+    ]
+  },
+  {
+    "item_id": "control_adult_t6",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t6",
+    "template_family": "additional",
+    "prefix": "After the adult finished work,",
+    "prefix_token_ids": [
+      4553,
+      253,
+      6782,
+      6699,
+      789,
+      13
+    ]
+  },
+  {
+    "item_id": "control_adult_t7",
+    "kind": "control",
+    "noun": "adult",
+    "template_id": "t7",
+    "template_family": "additional",
+    "prefix": "According to the adult,",
+    "prefix_token_ids": [
+      7130,
+      281,
+      253,
+      6782,
+      13
+    ]
+  }
+]

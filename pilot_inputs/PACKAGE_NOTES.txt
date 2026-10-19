@@ -1,0 +1,8 @@
+E04 implementation v0.1. GPU execution is not locally verified.
+Reconstruction uses explicit AdamW defaults, eager attention and NumPy shuffling.
+Corpus filtering is conservative article-level lexical filtering. Pronoun controls
+are a new development instrument, not a validated benchmark. Run one seed-2026
+reconstruction and review the exported results before permitting continuation.
+Full-state checkpoint save is implemented; an actual GPU interruption/resume test
+remains required before relying on long runs. Do not treat CPU unit tests as GPU
+validation. Original E03 source notebook and weights were not available here.

@@ -1,0 +1,12 @@
+{
+  "training_prefixes.json": "6154b759c96085ec11f18f7ff15d5f983bdf7768b2144f58eac0c56abd98f432",
+  "capability_manifest.json": "028807398fcd279c01d07b6501f641f870086e4e54beb3bb3d2912583eaeaf04",
+  "before_associations.csv": "f4008418917dbf7a10c1ec2fdead1aa16905f80220c057d9797f5a866fdda565",
+  "after_associations.csv": "d34c258baccf5a2d170513bb1c591bdea0065b1d87f970bc86a3ebe6914bfcd9",
+  "evaluation_items.json": "2a3e10c4d62853cf562c6c50bd8e21a710e23c077e573a01e188a99990bf1f38",
+  "development_occupation_aliases.json": "6b1820363aaace9704cf6444209183fca9f94cada15ef483d0f3846926ef2d65",
+  "explicit_pronoun_controls.json": "ce4aeef0568b8c99bcee9cbef7eef22181303f12afe75eb0565421fc4dedbd30",
+  "pilot_runtime.py": "d7bb4be7c9b60ac7dbf0ce89b9363e267522529904e03f04d73862f53e354467",
+  "PILOT_PROTOCOL.txt": "090cf56a467af1990cbdc1cf6fc5e8a7b8d92b007787a133d85f385b1447d920",
+  "PACKAGE_NOTES.txt": "3a16fde2ecf7d67190fe0aa2e3e995da35a6c89e95f9611d565a79a3e5094a18"
+}

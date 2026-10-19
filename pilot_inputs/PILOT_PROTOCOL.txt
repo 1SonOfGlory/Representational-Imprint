@@ -1,0 +1,169 @@
+WHAT RETURNS AFTER CORRECTION? — DEVELOPMENT PILOT v0.1
+Date: 2026-10-07
+Status: concrete development protocol; not a registered confirmation study.
+This document supersedes earlier 18-run/CDA-first proposals for the initial pilot.
+
+PURPOSE IN PLAIN LANGUAGE
+Find out whether further training makes the same old occupation associations
+stronger again, changes general pronoun preference on our prompts, or both.
+Compare against the original model receiving exactly the same further training.
+
+RESEARCH STATUS
+Existing data show a weaker but largely similarly ordered output pattern after
+E03. No recovery experiment has been run. Novelty is a candidate, not established.
+The next study is an exploratory feasibility and measurement pilot, not evidence
+of internal retention, a new debiasing algorithm, or publication readiness.
+
+PRIMARY QUESTIONS
+1. How do test-set mean preference, original-pattern strength, and departures
+   from that pattern change during continued training?
+2. Does the behavioral difference between corrected and uncorrected models
+   shrink, persist, or grow under the same training?
+Do not describe the test-set mean as a universal unigram prior.
+
+INITIAL SCOPE
+Model: EleutherAI/pythia-410m.
+Revision: 9879c9b5f8bea9051dcb0e68dff21493d67e9d4f.
+Conditions: freshly replicated E03; original model without correction.
+Seeds: 2026, 2027, 2028, paired across conditions.
+One continued-training corpus. Six continued-training trajectories in total,
+plus three E03 correction runs. Early/later budgets are checkpoints in the same
+trajectory, not additional independent experiments.
+Defer CDA, other models, mechanistic probes, random weight interventions,
+association-reinforcing data, and a second learning rate.
+
+CORRECTION REPLICATION
+Use the saved 96 training prefixes (24 occupations x four templates), tokenizer
+revision and exact E03 target construction. Freeze baseline next-token q, replace
+q_he and q_she with half their combined mass, leave other q values unchanged,
+and minimize KL(q || p). Full-weight FP32 AdamW, lr=1e-6, weight_decay=0,
+batch_size=8, epochs=2 (24 updates), clip_norm=1.0. Preserve reported eval-mode
+training with gradients enabled; do not silently change dropout behavior.
+Recover/check all remaining settings before calling this an exact replication.
+Seed 2026 is the numerical reproduction check; others measure sensitivity to
+training order/randomness. Report all runs, including failed corrections.
+Compare reconstructed seed-2026 outputs with saved E03 measurements. Explain
+any numerical mismatch before proceeding. Never invent an exact-match tolerance.
+
+DATA PREPARATION
+Candidate corpus: WikiText-2 raw TRAIN split, never its test split. Freeze its
+actual dataset revision, tokenizer revision, chosen document IDs and text hashes.
+Use complete document-level sampling before tokenization; record sampling seed.
+Filter whole documents containing development/training occupation aliases
+(including audited plurals) for the initial conservative filtered-text condition.
+Do not load confirmation occupations for filtering or tuning. Record that target
+absence is checked only for the development/training vocabulary at this stage.
+Filtering does not remove indirect social information or pretraining overlap.
+Record he/she and related pronoun counts before/after filtering, plus model-token
+counts. Do not infer conditional model predictions from corpus frequency ratios.
+Deduplicate against capability evaluation documents by normalized text hash and
+document overlap checks; report residual overlap limitations.
+Pack with document boundary EOS into 128-token blocks. Require enough unique
+blocks for one complete run; do not silently repeat data to reach the budget.
+Freeze the identical block set for every condition. Seed controls order only.
+
+CONTINUED TRAINING: PROVISIONAL NUMERICAL DEFAULTS
+Full-weight FP32 AdamW, lr=1e-6, weight_decay=0, clip_norm=1.0.
+Fresh optimizer in BOTH conditions; constant learning rate; dropout disabled
+in both to preserve the E03 convention. These are one specified regime, not a
+universal test of durability. Defaults require resource preflight before freeze.
+Effective batch: eight 128-token blocks. Try microbatch 1, accumulation 8 to
+limit peak memory. Apply loss normalization correctly across accumulation.
+Maximum 300 optimizer updates (304,800 predicted tokens if every block supplies
+127 loss-bearing targets); record actual loss-bearing token count, not estimates.
+Evaluate at steps 0, 1, 5, 10, 25, 50, 100, 200, 300. Primary development endpoint:
+300; secondary early endpoint: 25. Do not choose an endpoint after seeing curves.
+A short runtime/memory smoke test uses a disposable model; discard its updates.
+If resources require changing these settings, amend v0.1 and log the reason
+before inspecting recovery outcomes. No silent batch/precision/budget changes.
+
+MEASUREMENTS
+For occupation i, template j, time t, s=logP(' he')-logP(' she'). Verify token
+boundaries. Compute template mean mu[j,t], centered profile p[i,j,t]=s-mu,
+neutral-control means, pronoun-pair mass, and ordinary-text loss/perplexity.
+Use identical template/occupation weights at every time point.
+For a fixed original centered vector p_ref, track:
+  a(t)=dot(p(t),p_ref)/dot(p_ref,p_ref)
+  r(t)=p(t)-a(t)*p_ref
+Also report cosine, rank correlation and RMS profile magnitude. a is original-
+pattern strength, not a measure of internal memory. r is geometrically orthogonal
+to the chosen reference, not a separate causal mechanism.
+Always report absolute trajectories and changes from post-correction step zero.
+For each component, also report G(t)=corrected(t)-uncorrected(t) and
+G(t)-G(0), paired by seed. Do not let a moving reference obscure absolute changes.
+Avoid division by a tiny correction effect; omit unstable recovery percentages.
+
+REFERENCE VALIDATION
+The same-template original-reference result is descriptive and equals one at
+baseline by construction. Add a fixed cross-template sensitivity analysis:
+estimate an occupation reference from t0-t3 at baseline; score mean-centered
+t4-t7 profiles against it, then reverse the split. Do not force the held-template
+baseline to one. The t4-t7 block is structurally different but already development
+data, not an untouched test. Keep all template-specific results visible.
+Original-vs-new split agreement was about 0.918 before and 0.938 after E03.
+
+SCALING AND CAPABILITY CHECKS
+Fit template offsets plus a common scaling descriptively; report residuals and
+held-template behavior. Do not claim this fit identifies the cause of changes.
+On a fixed ordinary-text diagnostic subset, retain top-token log probabilities,
+entropy, and fixed non-gender token-pair margins to assess broader confidence
+changes. These diagnostics do not automatically normalize away all confounds.
+Retain the existing fixed 128-document capability sample for continuity, and
+document its narrow coverage. Create a disjoint explicit-pronoun reference set
+with unambiguous referents before training; audit scoring/tokenization manually.
+Do not use occupation/family titles as guaranteed pronoun labels.
+Report capability changes continuously. Nonfinite loss, invalid tokenization or
+corrupt data are technical stop conditions. A worse capability score qualifies
+interpretation; it is not grounds to hide a trajectory.
+
+UNCERTAINTY AND DECISIONS
+Show all three seed trajectories and paired differences. Three seeds establish
+feasibility and rough variability, not a precise population estimate. If using
+occupation bootstrap intervals, label them stimulus uncertainty conditional on
+these runs; do not pool prompt rows as independent training experiments.
+Use E03 repeats to inform later tolerances before recovery outcomes are inspected.
+No arbitrary p-value or correlation cutoff establishes success.
+Interpret outcomes locally: no detected recovery within this budget is not proof
+of erasure or an explanation of other papers. Convergence to the uncorrected
+trajectory can mean loss of correction benefit; it is not itself a failure gate.
+
+MILESTONES / DELIVERABLES
+M0: Targeted literature note and precise candidate contribution — delivered;
+    broader novelty remains unverified. No 'first' claim permitted.
+M1: Saved-score reliability/decomposition audit — delivered; broader construct
+    validity and untouched confirmation remain open.
+M2: Operational preflight — verify executed correction code/settings, pin corpus
+    manifest, specify reference controls, record smoke-test cost, version protocol.
+M3: Three E03 replications — tables of all association/capability measures and
+    seed-2026 reproduction discrepancy; no selection of best seed.
+M4: Six paired trajectories — raw measurements, resumable states and per-run logs.
+M5: Short report — mean-preference figure, pattern-strength figure, paired-gap
+    figure, capability/scaling diagnostics, limitations and go/no-go recommendation.
+M6: Only after the development plan is stable: confirm on reserved data and
+    consider a bounded correction-strength/CDA comparison or model replication.
+
+RESOURCES / CHECKPOINT INTEGRITY
+Use free Colab/Kaggle; do not assume a fixed quota. Measure runtime and memory
+before budgeting the matrix. Full FP32 weights alone are roughly 1.64 GB;
+optimizer and other resume state increase storage substantially. Keep one latest
+complete resume state per active run and retain essential endpoint model states.
+Full-model updates cannot be resumed from head-only or nonexistent LoRA saves.
+Save model, optimizer, random generators, data order/cursor, step and config hash
+atomically. Test resume once. Export to persistent storage before session loss;
+Kaggle working storage alone is not a persistence guarantee. Never compare a
+partial run as if it reached the planned endpoint. Produce compact measurement
+files frequently. No cloud credentials or paid resource assumptions required.
+
+CONFIRMATION POLICY
+Do not encrypt, relocate, print, tune on, or score the reserved set in development.
+Protection is procedural separation, explicit configuration and access control.
+Record manifests/hashes through a dedicated preparation step when necessary.
+After protocol freeze, evaluate prespecified saved checkpoints together. If a
+confirmation result triggers a redesign, subsequent evaluations are exploratory
+unless new untouched data are obtained.
+
+PUBLICATION CRITERION
+A useful contribution must show that separating components changes a scientific
+interpretation that aggregate measures would support, or reveals a reliable
+phenomenon beyond existing work. Another curve or another model alone is not
+enough. Neither a null finding nor completion of this plan guarantees publication.

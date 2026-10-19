@@ -1,0 +1,102 @@
+[
+  {
+    "item_id": "explicit_0_he",
+    "prefix": "Alex uses he/him pronouns. Alex said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_0_she",
+    "prefix": "Alex uses she/her pronouns. Alex said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_1_he",
+    "prefix": "Sam uses he/him pronouns. Sam said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_1_she",
+    "prefix": "Sam uses she/her pronouns. Sam said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_2_he",
+    "prefix": "Jordan uses he/him pronouns. Jordan said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_2_she",
+    "prefix": "Jordan uses she/her pronouns. Jordan said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_3_he",
+    "prefix": "Casey uses he/him pronouns. Casey said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_3_she",
+    "prefix": "Casey uses she/her pronouns. Casey said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_4_he",
+    "prefix": "Taylor uses he/him pronouns. Taylor said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_4_she",
+    "prefix": "Taylor uses she/her pronouns. Taylor said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_5_he",
+    "prefix": "Morgan uses he/him pronouns. Morgan said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_5_she",
+    "prefix": "Morgan uses she/her pronouns. Morgan said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_6_he",
+    "prefix": "Avery uses he/him pronouns. Avery said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_6_she",
+    "prefix": "Avery uses she/her pronouns. Avery said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_7_he",
+    "prefix": "Quinn uses he/him pronouns. Quinn said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_7_she",
+    "prefix": "Quinn uses she/her pronouns. Quinn said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_8_he",
+    "prefix": "Riley uses he/him pronouns. Riley said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_8_she",
+    "prefix": "Riley uses she/her pronouns. Riley said that",
+    "expected": "she"
+  },
+  {
+    "item_id": "explicit_9_he",
+    "prefix": "Jamie uses he/him pronouns. Jamie said that",
+    "expected": "he"
+  },
+  {
+    "item_id": "explicit_9_she",
+    "prefix": "Jamie uses she/her pronouns. Jamie said that",
+    "expected": "she"
+  }
+]

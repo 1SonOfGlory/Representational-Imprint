@@ -1,0 +1,87 @@
+TARGETED LITERATURE DECISION — 2026-10-07
+
+Decision: proceed to preparation of a bounded exploratory pilot. Do not claim
+that novelty has been proved or that this is a top-venue-ready contribution.
+This is a targeted section-level review, not an exhaustive or full-paper audit.
+
+NEW CLOSEST-OVERLAP CHECKS
+
+1. ProSocialTuning: Towards Understanding Task-agnostic Debiasing Through the
+Lenses of Intrinsic Bias and Forgetfulness (Findings of ACL 2024).
+https://aclanthology.org/2024.findings-acl.109.pdf
+Read abstract, Section 3/Figure 1, method excerpts in Section 5 and evaluation
+excerpts in Section 6. The study explicitly investigates bias relearning after
+debiasing, varying downstream gender-related data proportions and sample counts.
+Its method regularizes debiased attention heads; evaluation includes BERT and
+RoBERTa, StereoSet and downstream tasks. This defeats a novelty claim based on
+whether bias returns or whether downstream data composition matters. The inspected
+measurements do not establish the exact centered occupation-profile trajectory
+decomposition proposed here. That limited observation is not proof of absence.
+
+2. Chained Tuning Leads to Biased Forgetting.
+https://arxiv.org/html/2412.16469
+Read introduction, task definitions, Section 3 evaluation equations 1-2 and
+results/conclusion excerpts. It measures both overall and demographic-group
+forgetting during chained tuning, including their difference and worst-group
+behavior. Thus 'previous recovery work only reports aggregate scores' is false.
+Our candidate distinction is an original occupation-score direction and its
+amplitude, not simply group-disaggregated evaluation. Whether that distinction
+adds enough scientific value still needs evidence. Future references must pin
+the retrieved version; this unversioned source is a discovery reference only.
+
+3. Co2PT (Findings of EMNLP 2023).
+https://aclanthology.org/2023.findings-emnlp.390/
+Read primary bibliographic record and abstract only. It proposes counterfactual
+contrastive prompt tuning and tests extrinsic bias across downstream benchmarks,
+including adaptation to already debiased models. This supports the relevance of
+downstream debiasing comparisons. No claim about its full recovery metrics is
+made without reading the paper's methods.
+
+EARLIER VERIFIED LEADS / COVERAGE LIMITS
+
+Fine-Tuning is Subgraph Search, version 3, Li et al.:
+https://arxiv.org/html/2502.06106v3
+Previously inspected Sections 5 and E.1.2. Gender-pronoun probability differences,
+occupation debiasing, BUG and WinoBias evaluation are already used. These building
+blocks are not novel. Cite this version rather than conflating it with Prakash's
+ICLR 2024 entity-tracking paper.
+
+How Gender Debiasing Affects Internal Model Representations, and Why It Matters:
+https://arxiv.org/abs/2204.06827
+Primary abstract checked previously. Superficial debiasing and internal-vs-output
+measurement overlap the abandoned original question. Full-method comparison is
+not completed in this note.
+
+Unlearning Isn't Deletion, Xu et al. (initial submission 2025):
+https://arxiv.org/abs/2505.16831
+Primary abstract checked previously; reversibility and representation measurements
+overlap claims about retained traces. Do not cite as Maini et al. 2024.
+
+Measure, Don't Optimize:
+https://arxiv.org/abs/2608.11408
+Distance Is Not Enough:
+https://arxiv.org/abs/2608.25429
+Primary abstracts checked previously. Internal/weight-based recovery prediction
+and robustness interventions overlap the deferred mechanistic/predictive project.
+These listings exist; reviewers' failure to find them was not evidence of fraud.
+
+ALLOWED WORKING CONTRIBUTION
+An exploratory comparison of test-set mean preference, strength along the original
+centered occupation pattern, and residual profile changes, measured during
+continued training relative to an equally trained uncorrected reference.
+Strength/similarity decomposition is elementary mathematics, not a new algorithm.
+Value would come from a reproducible empirical finding and evidence that this
+decomposition materially changes an interpretation based on aggregate scores.
+
+DISALLOWED CLAIMS
+First demonstration of returning bias; first disaggregated forgetting measure;
+proof of internal imprint/erasure; lexically filtered text has no relevant signal;
+small-model pronoun parity establishes social fairness; three seeds or two models
+automatically meet a journal/conference standard.
+
+OPEN ITEMS BEFORE A FINAL NOVELTY CLAIM
+Follow citations on prior-adjusted pronoun measurement, debiasing transfer and
+biased forgetting; inspect relevant full methods rather than relying on abstracts.
+Document exact comparisons and distinguish 'not observed in inspected sections'
+from 'never studied'. The limited search warrants a cheap exploratory pilot, not
+an expensive expansion or a claim of novelty.
